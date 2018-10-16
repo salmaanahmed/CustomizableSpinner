@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomizableSpinner">
+        <attr name="selectedTextSize" format="dimension" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="selectedBackgroundColor" format="color" />
+        <attr name="selectedMaxLines" format="integer" />
+        <attr name="selectedHeight" format="dimension" />
+        <attr name="selectedPadding" format="dimension" />
+
+        <attr name="dropDownTextSize" format="dimension" />
+        <attr name="dropDownTextColor" format="color" />
+        <attr name="dropDownBackgroundColor" format="color" />
+        <attr name="dropDownMaxLines" format="integer" />
+        <attr name="dropDownHeight" format="dimension" />
+        <attr name="dropDownPadding" format="dimension" />
+    </declare-styleable>
+</resources>

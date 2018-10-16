@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        tools:context=".MainActivity">
+
+    <salmaan.ahmsal.com.customizablespinner.CustomizableSpinner
+            android:id="@+id/spinner"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="35dp"
+            android:clickable="true"
+            app:selectedTextSize="18sp"
+            app:dropDownTextSize="17sp"
+            app:selectedTextColor="@color/colorAccent"
+            app:dropDownTextColor="@color/colorPrimaryDark"
+            app:dropDownBackgroundColor="@android:color/background_light"
+            app:dropDownHeight="35dp"
+           />
+    <TextView
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="35dp" />
+
+
+</LinearLayout>
