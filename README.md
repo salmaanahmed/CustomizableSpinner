@@ -54,11 +54,11 @@ If you prefer not to use either of the above mentioned dependency managers, you 
 # Spinner in XML
 Create spinner in XML as follows
 ```xml
-    <salmaan.ahmsal.com.customizablespinner.CustomizableSpinner
-            android:id="@+id/spinner"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="35dp" />
+<salmaan.ahmsal.com.customizablespinner.CustomizableSpinner
+        android:id="@+id/spinner"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="35dp" />
 ```
 
 # Set Attributes
@@ -83,8 +83,15 @@ This will keep your code cleaner
     app:selectedPadding="3dp"
     app:dropDownPadding="5dp" />
 ```
+# Set Values
+Instead of creating adapter and setting values to adapter, then setting adapter to the spinner.
+All you have to do is as following.
+```kotlin
+// Set dataset to spinner as following
+spinner.dataSet = arrayOf("Hello", "Lets", "See", "The", "Magic")
+```
 
-# Couple Of Complimentry Things
+# Listening Changes
 You can now add listener to your spinner as lambda expression and get both string and index
 ```kotlin
 // Add listener to the spinner
@@ -92,6 +99,8 @@ spinner.selectionChanged { index, string ->
     textView.text = "$index: $string"
 }
 ```
+
+# Select Value
 You can now also select the value by passing string itself instead of passing index
 ```kotlin
 // Set selected value
