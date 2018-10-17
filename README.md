@@ -1,5 +1,5 @@
 # CustomizableSpinner
-Easy spinner is easy to implement spinner which populates without any creating adapter or providing layout.
+Customizable spinner is an easy to implement spinner which populates without any creating adapter or providing layout.
 You dont need to create adapter for binding the list to the spinner.
 Also no need to create multiple layouts for customizing the dropdown view or the spinner view.
 
