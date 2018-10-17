@@ -55,10 +55,10 @@ If you prefer not to use either of the above mentioned dependency managers, you 
 Create spinner in XML as follows
 ```xml
 <salmaan.ahmsal.com.customizablespinner.CustomizableSpinner
-        android:id="@+id/spinner"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="35dp" />
+    android:id="@+id/spinner"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="35dp" />
 ```
 
 # Set Attributes
