@@ -22,6 +22,5 @@ class MainActivity : AppCompatActivity() {
 
         // Set selected value
         spinner.setSelectedValue("Magic")
-
     }
 }

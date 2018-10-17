@@ -14,14 +14,13 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="35dp"
-            android:clickable="true"
             app:selectedTextSize="18sp"
             app:dropDownTextSize="17sp"
             app:selectedTextColor="@color/colorAccent"
             app:dropDownTextColor="@color/colorPrimaryDark"
             app:dropDownBackgroundColor="@android:color/background_light"
-            app:dropDownHeight="35dp"
-           />
+            app:dropDownHeight="50dp" />
+
     <TextView
             android:id="@+id/textView"
             android:gravity="center"
